@@ -93,9 +93,20 @@ section {
   }
 
   footer {
-    background-color: rgb(35, 188, 248);
-    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: fit-content;
-
+    background-color: rgb(52, 180, 255);
+    color: white;
+    text-align: center;
   }
+
+  h2{
+    font-size: large ;
+    padding-bottom: 2px;
+  }
+
+.pc {
+    
+}

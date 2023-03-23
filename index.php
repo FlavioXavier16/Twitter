@@ -49,7 +49,8 @@
         </section>
     </aside>
     <footer>
-        Não perca o que está acontecendo
+    <h2>  Não perca o que está acontecendo </h2>
+    <p class="pc"> As pessoas que usam o Twitter são as primeiras a saber. </p>
     </footer>
 </body>
 </html>
