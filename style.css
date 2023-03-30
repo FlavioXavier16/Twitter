@@ -8,6 +8,27 @@ body {
     color: rgb(170, 170, 170);
 }
 
+.noticia {
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.noticia:hover{
+  background-color: #dfdddd;
+}
+
+.manchete {
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.subtitulo {
+  color: #888;
+  font-size: medium;
+  font-weight: lighter;
+}
+
 #socialista {
     float: left;
     width: 15%;
@@ -29,9 +50,10 @@ body {
 
 #centrao {
     float: left;
-    background-color: aliceblue;
+    background-color: white;
     width: 30% ;
     height: 100% ;
+    color: white;
 }
 
 #caixinha {
@@ -75,6 +97,7 @@ section {
   }
   #customBtn:hover {
     cursor: pointer;
+    background-color: #dfdddd;
   }
   span.label {
     font-family: serif;
@@ -88,7 +111,6 @@ section {
     padding-right: 42px;
     font-size: 14px;
     font-weight: bold;
-    /* Use the Roboto font that is loaded in the <head> */
     font-family: 'Roboto', sans-serif;
   }
 
@@ -107,6 +129,16 @@ section {
     padding-bottom: 2px;
   }
 
-.pc {
-    
+
+.esquerda {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
 }
+
+.esquerda:hover {
+  background-color: #b6b6b6;
+}
+
+
